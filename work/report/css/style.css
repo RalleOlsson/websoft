@@ -66,3 +66,14 @@ section {
     align-content: center;
     width: 66%;
 }
+
+.duck {
+    width: 128px;
+    height: 128px;
+    border: 1px solid;
+    background-image: url(../img/duck.jpg);
+    background-size: 128px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
