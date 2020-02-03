@@ -1,12 +1,36 @@
 /*
  * Comments are written as C++ style. 
  */
+
+@import 'https://fonts.googleapis.com/css?family=Raleway';
 html {
     overflow-y: scroll;
+    background-color: #3f3f3f;
+}
+
+h1,
+h2,
+p,
+a,
+nav {
+    font-family: Arial;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+body {
+    margin: 0px auto;
+    width: auto;
+    background-color: rgb(0, 0, 0, 0);
 }
 
 .site-header {
+    font-size: 22px;
+    border-bottom: 1px solid;
+    position: relative;
+    background-color: #2f2f2f;
     width: 100%;
+    height: 100%;
+    padding: 22px 0px;
     align-self: center;
     text-align: center;
 }
@@ -24,7 +48,9 @@ html {
     text-align: center;
 }
 
-.me-img {
+.me_img {
+    border: 2px solid;
+    border-color: black;
     width: 100%;
     height: auto;
     display: block;
@@ -32,39 +58,84 @@ html {
     margin-right: auto;
 }
 
-a {
-    color: #fff;
+.nav-a:before {
+    position: absolute;
+    color: #FFF;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    content: attr(alt);
+    transition: all 0.3s;
+    transform: scale(0.8);
+    opacity: 0;
 }
 
-html {
-    background-color: #1f1f1f;
+.nav-a:hover:before {
+    transform: scale(1);
+    opacity: 1;
 }
 
-body {
-    margin: 16px auto;
-    background: #fff;
-    width: auto;
+.nav-a {
+    text-decoration: none;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+    margin: 64px 32px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.nav-a:before {
+    transform: scale(1.2);
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
     max-width: 700px;
-    background-color: rgb(0, 0, 0, 0);
-
-}
-
-h1 {
-    color: #fff;
-}
-
-h2 {
-    color: #fff;
-}
-
-p {
-    color: #fff;
 }
 
 section {
     display: inline-block;
     align-content: center;
-    width: 66%;
+    width: 100%;
+}
+
+thead {
+    color: #fff;
+}
+
+tr {
+    background-color: #fff;
+}
+
+td {
+    padding: 2px;
+    color: #000;
+    border: 1px solid;
+    border-color: #fff;
+}
+
+td:hover {
+    background-color: #2f2f2f;
+    color: #fff;
+}
+
+th {
+    color: #000;
+    text-align: left;
+    border: 1px solid;
+    border-color: #fff;
+}
+
+table {
+    width: 100%;
+}
+
+#table_container {
+    border: 1px solid;
+    border-color: #fff;
+    margin: 64px 8px;
 }
 
 .duck {
@@ -74,6 +145,96 @@ section {
     background-image: url(../img/duck.jpg);
     background-size: 128px;
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 50%;
+    left: 0%;
+}
+
+#flag_container {
+    margin: 8px 0px;
+    width: 210px;
+    height: 200px;
+    transition: width 0.2s, height 0.2s;
+}
+
+#flag_container:active {
+    width: 0px;
+    height: 0px;
+}
+
+.flag_sweden {
+    position: relative;
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.sweden_crossp1 {
+    position: absolute;
+    top: 0%;
+    left: 25%;
+    background-color: yellow;
+    width: 25%;
+    height: 100%;
+}
+
+.sweden_crossp2 {
+    position: absolute;
+    top: 37.5%;
+    left: 0px;
+    background-color: yellow;
+    width: 100%;
+    height: 25%;
+}
+
+.flag_denmark {
+    position: relative;
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.denmark_crossp1 {
+    position: absolute;
+    top: 0%;
+    left: 25%;
+    background-color: white;
+    width: 25%;
+    height: 100%;
+}
+
+.denmark_crossp2 {
+    position: absolute;
+    top: 37.5%;
+    left: 0%;
+    background-color: white;
+    width: 100%;
+    height: 25%;
+}
+
+.flag_france {
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.france_crossp1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: blue;
+    width: 33%;
+    height: 100%;
+}
+
+.france_crossp2 {
+    position: absolute;
+    top: 0%;
+    left: 67%;
+    background-color: red;
+    width: 33%;
+    height: 100%;
 }

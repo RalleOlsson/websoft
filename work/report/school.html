@@ -10,31 +10,45 @@
 
 <body>
 
+
     <header class="site-header">
-        <nav >
-            <a href="me.html">Me</a> |
-            <a href="report.html">Report</a> |
-            <a href="about.html">About</a>
-            <a href="school.html">School</a>
-        </nav >
+        <nav>
+            <a class="nav-a" href="me.html" alt="Me">Me</a> |
+            <a class="nav-a" href="report.html" alt="Report">Report</a> |
+            <a class="nav-a" href="about.html" alt="About">About</a> |
+            <a class="nav-a" href="school.html" alt="School">School</a> |
+            <a class="nav-a" href="flag.html" alt="Flags">Flags</a>
+        </nav>
     </header>
 
+    <div class="container">
+        <div id="duck" class="duck"></div>
 
-    <div id="table_container">
-        <table id="table">
-            <thead>
-                <tr>
-                    <th>id</th>
-                    <th>name</th>
-                </tr>
-            </thead>
-            <tbody id="tablehead">
 
-            </tbody>
-        </table>
+        <div>
+            <select id="json_name">
+            <option value="1080">1080</option>
+            <option value="1081">1081</option>
+            <option value="1082">1082</option>
+            <option value="1083">1083</option>
+        </select>
+        </div>
+
+        <button id="fill_btn">clickme</button>
+
+        <div id="table_container">
+
+        </div>
     </div>
 
+    <footer class="site-footer">
+        <hr>
+        <p>Github: <a href="https://github.com/RalleOlsson">https://github.com/RalleOlsson</a> | email: R.olsson96@gmail.com</p>
+    </footer>
+
     <script type="text/javascript" src="js/fetch.js"></script>
+    <script type="text/javascript" src="js/duck.js"></script>
 </body>
+
 
 </html>
