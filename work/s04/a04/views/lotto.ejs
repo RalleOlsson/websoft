@@ -12,7 +12,7 @@
                         if (numbers[i] == userRow[n]) { 
                             found = true; 
         %>
-            <td style="background-color: black; color: white; border: 1px solid; border-color:black;">
+            <td style="background-color: black; color: white; border: 1px solid; border-color:black; width: 1em; text-align:center;">
                 <%= userRow[n] %>
             </td>
             <%
@@ -20,7 +20,7 @@
                     }
                     if (!found) { 
             %>
-                <td style="border: 1px solid;">
+                <td style="border: 1px solid; width: 1em; text-align:center;">
                     <%= userRow[i] %>
                 </td>
                 <%  }
@@ -44,7 +44,7 @@
                                 found = true; 
                                 nbrs++;
         %>
-            <td style="background-color: black; color: white; border: 1px solid; border-color:black;">
+            <td style="background-color: black; color: white; border: 1px solid; border-color:black; width: 1em; text-align:center;">
                 <%= numbers[i]%>
             </td>
             <%
@@ -52,7 +52,7 @@
                         }
                         if (!found) { 
             %>
-                <td style="border: 1px solid; ">
+                <td style="border: 1px solid; width: 1em; text-align:center;">
                     <%= numbers[i]%>
                 </td>
                 <%
@@ -60,7 +60,7 @@
                     }
                     else { 
                 %>
-                    <td style="border: 1px solid; ">
+                    <td style="border: 1px solid; width: 1em; text-align:center;">
                         <%= numbers[i]%>
                     </td>
                     <%
