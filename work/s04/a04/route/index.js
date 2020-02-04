@@ -59,6 +59,7 @@ router.get("/lotto-json", (req, res) => {
     let generatedRow = [];
 
     let correctNbrs = [];
+    let nbrOfCorrectAnsr = 0;
 
     for (let i = 0; i < 7; i++) {
         generatedRow[i] = (Math.floor(Math.random() * 35) + 1);
@@ -66,6 +67,7 @@ router.get("/lotto-json", (req, res) => {
         for (let n = 0; n < 7; n++) {
             if (generatedRow[i] == rows[n]) {
                 correctNbrs.push(rows[n]);
+                nbrOfCorrectAnsr++;
             }
         }
     }
@@ -74,6 +76,7 @@ router.get("/lotto-json", (req, res) => {
         generatedRow: generatedRow,
         userInputedRow: rows,
         correctNbrs: correctNbrs,
+        nbrOfCorrectAnsr: nbrOfCorrectAnsr
     });
 
 });
