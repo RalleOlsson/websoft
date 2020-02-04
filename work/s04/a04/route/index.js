@@ -74,7 +74,6 @@ router.get("/lotto-json", (req, res) => {
         generatedRow: generatedRow,
         userInputedRow: rows,
         correctNbrs: correctNbrs,
-        if: Object.values(req.query).indexOf("row")
     });
 
 });

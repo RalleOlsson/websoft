@@ -9,11 +9,11 @@
                 for (let i = 0; i < numbers.length; i++) { 
                     let found = false;
                     for (let n = 0; n < userRow.length; n++) { 
-                        if (numbers[i] == userRow[n]) { 
+                        if (numbers[n] == userRow[i]) { 
                             found = true; 
         %>
             <td style="background-color: black; color: white; border: 1px solid; border-color:black; width: 1em; text-align:center;">
-                <%= userRow[n] %>
+                <%= userRow[i] %>
             </td>
             <%
                         }
@@ -37,36 +37,36 @@
     <tr>
         <%  var nbrs = 0;
             for (let i = 0; i < numbers.length; i++) { 
-                    if (typeof userRow !== 'undefined') {
-                        let found = false;
-                        for (let n = 0; n < userRow.length; n++) { 
-                            if (numbers[i] == userRow[n]) { 
-                                found = true; 
-                                nbrs++;
+                if (typeof userRow !== 'undefined') {
+                    let found = false;
+                    for (let n = 0; n < userRow.length; n++) { 
+                        if (numbers[i] == userRow[n]) { 
+                            found = true;
+                            nbrs++;
         %>
             <td style="background-color: black; color: white; border: 1px solid; border-color:black; width: 1em; text-align:center;">
                 <%= numbers[i]%>
             </td>
             <%
-                            } 
-                        }
-                        if (!found) { 
+                        } 
+                    }
+                    if (!found) { 
             %>
                 <td style="border: 1px solid; width: 1em; text-align:center;">
                     <%= numbers[i]%>
                 </td>
                 <%
-                        }
                     }
-                    else { 
+                }
+                else { 
                 %>
                     <td style="border: 1px solid; width: 1em; text-align:center;">
                         <%= numbers[i]%>
                     </td>
                     <%
-                    }
-                }   
-                    %>
+                }
+            }   
+                %>
     </tr>
 
 </table>
