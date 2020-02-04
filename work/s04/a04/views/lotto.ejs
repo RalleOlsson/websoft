@@ -1,0 +1,77 @@
+<h1>Lotto</h1>
+
+<p>User row</p>
+<table>
+
+    <tr>
+        <%  
+            if (typeof userRow !== 'undefined') {
+                for (let i = 0; i < numbers.length; i++) { 
+                    let found = false;
+                    for (let n = 0; n < userRow.length; n++) { 
+                        if (numbers[i] == userRow[n]) { 
+                            found = true; 
+        %>
+            <td style="background-color: black; color: white; border: 1px solid; border-color:black;">
+                <%= userRow[n] %>
+            </td>
+            <%
+                        }
+                    }
+                    if (!found) { 
+            %>
+                <td style="border: 1px solid;">
+                    <%= userRow[i] %>
+                </td>
+                <%  }
+                }
+            } 
+            %>
+    </tr>
+</table>
+
+
+<p>Generated row</p>
+<table>
+
+    <tr>
+        <%  var nbrs = 0;
+            for (let i = 0; i < numbers.length; i++) { 
+                    if (typeof userRow !== 'undefined') {
+                        let found = false;
+                        for (let n = 0; n < userRow.length; n++) { 
+                            if (numbers[i] == userRow[n]) { 
+                                found = true; 
+                                nbrs++;
+        %>
+            <td style="background-color: black; color: white; border: 1px solid; border-color:black;">
+                <%= numbers[i]%>
+            </td>
+            <%
+                            } 
+                        }
+                        if (!found) { 
+            %>
+                <td style="border: 1px solid; ">
+                    <%= numbers[i]%>
+                </td>
+                <%
+                        }
+                    }
+                    else { 
+                %>
+                    <td style="border: 1px solid; ">
+                        <%= numbers[i]%>
+                    </td>
+                    <%
+                    }
+                }   
+                    %>
+    </tr>
+
+</table>
+
+<p>
+    nr of correct answers
+    <%=nbrs %>
+</p>
