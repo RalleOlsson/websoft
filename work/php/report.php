@@ -1,24 +1,7 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <title>Report from the course sections</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="favicon.ico">
-</head>
-
-<body>
-
-    <header class="site-header">
-        <nav>
-            <a class="nav-a" href="me.html" alt="Me">Me</a> |
-            <a class="nav-a" href="report.html" alt="Report">Report</a> |
-            <a class="nav-a" href="about.html" alt="About">About</a> |
-            <a class="nav-a" href="school.html" alt="School">School</a> |
-            <a class="nav-a" href="flag.html" alt="Flags">Flags</a>
-        </nav>
-    </header>
+<?php
+    $pageTitle = "report";
+    include 'view/header.php';
+    ?>
 
 
     <div class="container">
@@ -153,84 +136,55 @@
                 <p>
                     <p>
                         <b>How do you feel about PHP as a programming language?</b>
-                        <br>Im rather neutral about this langauge. There is nothing i particularly like or dislike with it. I did however like being able to insert html through php for the header and footer so it would be updated on every page but this 
-                        does not feel like an exclusive thing for php. At the same time it felt quite boring to work with this assignment and im not sure if it was the php itself or the assignment. 
+                        <br>Im rather neutral about this langauge. There is nothing i particularly like or dislike with it. I did like being able to insert html through php for the header and footer so it would be updated on every page.
                     </p>
                     <p>
                         <b>Can you compare PHP to other languages you know?</b>
-                        <br>In a way its similar to javascript because of the loose typing but other than that i cannot make comparisions as i dont feel like i really know php well enough to make correct/objectiv comparisons. Still, logic works the same way in all languages so this assignemtn was not really a problem and your example code helped alot. 
-                        Maybe even to much as some parts felt like copy paste and voila it works.
+                        <br>
                     </p>
                     <p>
                         <b>Describe how you took on the coding exercise, what grade did you aim for and are you satisfied with the result?</b>
-                        <br>Time is valuable so i felt that i wouldnt put in too much time on this one incase i get stuck. Starting the assignment i aimed for highest grade possible but ultimately i only ended up doing the task up til grade 4 and the biggest reason for
-                        this underperformance is the time commitment. I did not feel like i had the time as other assignements are approaching and exam work is also progressing. I am satisfied with the pages itself but not really with the effort i put in. 
-                        Could just be a temporary lack of motivation that caused some of the problems i had during this assignment.
+                        <br>
                     </p>
                     <p>
                         <b>What is your TIL for this course section?</b>
-                        <br>I didnt really know how to use php before so basically everything i did with php was new. Connecting a webpage to an SQL database was very useful and is something i will most likely make use of during the project.
+                        <br>
                     </p>
                 </p>
             </section>
 
             <section>
                 <h2>S06</h2>
-                <p>
-                    <p>
-                        <b>Q</b>
-                        <br>
-                    </p>
-                </p>
+                <p>Here is the text for this section.</p>
             </section>
 
             <section>
                 <h2>S07</h2>
-                <p>
-                    <p>
-                        <b>Q</b>
-                        <br>
-                    </p>
-                </p>
+                <p>Here is the text for this section.</p>
             </section>
 
             <section>
                 <h2>S08</h2>
-                <p>
-                    <p>
-                        <b>Q</b>
-                        <br>
-                    </p>
-                </p>
+                <p>Here is the text for this section.</p>
             </section>
 
             <section>
                 <h2>S09</h2>
-                <p>
-                    <p>
-                        <b>Q</b>
-                        <br>
-                    </p>
-                </p>
+                <p>Here is the text for this section.</p>
             </section>
 
             <section>
                 <h2>S10</h2>
-                <p>
-                    <p>
-                        <b>Q</b>
-                        <br>
-                    </p>
-                </p>
+                <p>Here is the text for this section.</p>
             </section>
+
+
+
         </article>
 
     </div>
 
-    <footer class="site-footer">
-        <hr>
-        <p>Github: <a href="https://github.com/RalleOlsson">https://github.com/RalleOlsson</a> | email: R.olsson96@gmail.com</p>
-    </footer>
+    <?php include 'view/footer.php';?>
 
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/duck.js"></script>

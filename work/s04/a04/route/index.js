@@ -38,7 +38,6 @@ router.get("/lotto", (req, res) => {
 
     data.numbers.sort(function(a, b) {
         return a - b;
-
     });
 
     res.render("lotto", data);
