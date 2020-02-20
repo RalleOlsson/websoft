@@ -136,19 +136,23 @@
                 <p>
                     <p>
                         <b>How do you feel about PHP as a programming language?</b>
-                        <br>Im rather neutral about this langauge. There is nothing i particularly like or dislike with it. I did like being able to insert html through php for the header and footer so it would be updated on every page.
+                        <br>Im rather neutral about this langauge. There is nothing i particularly like or dislike with it. I did however like being able to insert html through php for the header and footer so it would be updated on every page but this 
+                        does not feel like an exclusive thing for php. At the same time it felt quite boring to work with this assignment and im not sure if it was the php itself or the assignment. 
                     </p>
                     <p>
                         <b>Can you compare PHP to other languages you know?</b>
-                        <br>
+                        <br>In a way its similar to javascript because of the loose typing but other than that i cannot make comparisions as i dont feel like i really know php well enough to make correct/objectiv comparisons. Still, logic works the same way in all languages so this assignemtn was not really a problem and your example code helped alot. 
+                        Maybe even to much as some parts felt like copy paste and voila it works.
                     </p>
                     <p>
                         <b>Describe how you took on the coding exercise, what grade did you aim for and are you satisfied with the result?</b>
-                        <br>
+                        <br>Time is valuable so i felt that i wouldnt put in too much time on this one incase i get stuck. Starting the assignment i aimed for highest grade possible but ultimately i only ended up doing the task up til grade 4 and the biggest reason for
+                        this underperformance is the time commitment. I did not feel like i had the time as other assignements are approaching and exam work is also progressing. I am satisfied with the pages itself but not really with the effort i put in. 
+                        Could just be a temporary lack of motivation that caused some of the problems i had during this assignment.
                     </p>
                     <p>
                         <b>What is your TIL for this course section?</b>
-                        <br>
+                        <br>I didnt really know how to use php before so basically everything i did with php was new. Connecting a webpage to an SQL database was very useful and is something i will most likely make use of during the project.
                     </p>
                 </p>
             </section>
