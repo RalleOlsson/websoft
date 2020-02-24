@@ -159,7 +159,36 @@
 
             <section>
                 <h2>S06</h2>
-                <p>Here is the text for this section.</p>
+                <p>
+                    <p>
+                        <b>What is your own opinion on popularity of programming languages and what are your thoughts of future popularity among programming languages?</b>
+                        <br>Java seems to still be the most popular programming language and Im glad that i got to learn it through this program at HKR but i still think its a shame that its the only programming language we delve deeper into (besides
+                        languages in this course). Having some content with C++ or even start out with it instead of java would be beneficial in my opinion. I remember when in my short attendance at BTH where they used to teach Java and C++ some time
+                        after but when they switched the courses they saw better results when it came to coding. In particular C++ has one aspect/concept that i think is really important/usefull to learn and that is Call by reference and the importance
+                        of addressing. Python is a language that is also gaining popularity and its a language i haven't worked with yet but it will surely see increased usage as machine learning sees growth. But i wish that C++ would be more popular
+                        but its best days is most likely way past it's days as simpler languages such as Java, Python are already more popular.
+                    </p>
+                    <p>
+                        <b>What will be your own choice for selecting future programming languages?</b>
+                        <br>I have no real preference and it would all depend on what im doing and what either fits or that im comfortable with. I have never worked with functional programming so a language that forces me to work and think in that way
+                        would be interesting such as purescript. At the same time i would like to work more with C++ because i dont really feel like i delved deep enough and i would especially want more practise with pointers.
+                    </p>
+                    <p>
+                        <b>Do your own investigation on https://trends.google.com (Links to an external site.) to customize your own comparison on programming languages (or frameworks) and elaborate on the results. </b>
+                        <br>I did a comparsion between C++, Java and Python. The filters was Worldwide, past 12 months, All categories and web searches. To my surprise Java and Python was much closer to each other than i expected and as expected C++ was
+                        very much below them. Java and Python had basically the same interest until summer last year in which Python gained more interest and is consistently above Java after that time point. On average Python had a interest score of 80,
+                        Java on 74, C++ on 24.
+                    </p>
+                    <p>
+                        <b>If you were to recommend a language/framework/technology to your potential employer and your next large project, what would it be and how would you “sell it”?</b>
+                        <br>I would recommend TypeScript as typing provides more readible code and understanding of the program. It compiles down to javascript making it usable for both front and back end development. It is a very popular framework which
+                        surely makes it easier to find people with experience.
+                    </p>
+                    <p>
+                        <b>What is your TIL for this course section?</b>
+                        <br>I didn't expect TypeScript to be such a popular framework and i reading up on TypeScript i would bet money on it being a majorly used framework in the future.
+                    </p>
+                </p>
             </section>
 
             <section>
