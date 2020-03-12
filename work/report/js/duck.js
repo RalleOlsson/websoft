@@ -15,7 +15,7 @@
         moveRight: function() {
             if (element.offsetLeft <= window.innerWidth - 128) {
                 element.style.left = element.offsetLeft + this.speed + "px";
-                //console.log("mouseover");
+                console.log(element.style.left);
             }
         },
         printPosX: function() {
